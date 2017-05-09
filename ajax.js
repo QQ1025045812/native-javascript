@@ -1,3 +1,9 @@
+//面向过程
+//get问题
+//缓存问题,传参加上时间戳&new Data().getTime();
+//中文参数前面加encodeURI('参数');
+//post，提交无缓存，拉取有缓存
+
 function ajax(method,url,data,success){
     var xhr=null;
     try{
