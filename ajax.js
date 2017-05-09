@@ -18,7 +18,7 @@ function ajax(method,url,data,success){
     if(method=='get'){
          xhr.send();
     }else{
-        xhr.setRequestHeader('content-type','application/application/x-www-form-urlencoded')
+        xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
         xhr.send(data);
     }
     xhr.onreadystatechange=function(){
